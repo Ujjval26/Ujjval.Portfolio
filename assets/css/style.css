@@ -267,6 +267,7 @@ img {
 /* show menu */
 .show-menu {
   bottom: 0;
+  left: 0 !important;
 }
 
 /* Active link */
@@ -1410,7 +1411,7 @@ footer .footer__social a:hover {
   width: 250px;
 }
 .second-work-card{
-  margin-top: 10vw !important;
+  margin-top: 15vw !important;
 }
 }
 
