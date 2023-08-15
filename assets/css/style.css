@@ -1409,5 +1409,8 @@ footer .footer__social a:hover {
   height: 250px;
   width: 250px;
 }
+.second-work-card{
+  margin-top: 10vw !important;
+}
 }
 
