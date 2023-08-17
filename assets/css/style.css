@@ -463,7 +463,6 @@ img {
 .skills__header {
   display: flex;
   align-items: center;
-  margin-bottom: var(--mb-2-5);
   cursor: pointer;
 }
 
@@ -499,7 +498,6 @@ img {
 .skills__titles {
   display: flex;
   justify-content: space-between;
-  margin-bottom: var(--mb-0-5);
 }
 
 .skills__name {
@@ -871,7 +869,7 @@ img {
 
 .footer__bg {
   background-color: var(--first-color-second);
-  padding: 2rem 0 3rem;
+  padding: 2rem 0 0rem;
 
 }
 
@@ -907,7 +905,6 @@ footer .footer__social a:hover {
   font-size: var(--smaller-font-size);
   text-align: center;
   color: var(--text-color-light);
-  margin-top: var(--mb-3);
 }
 
 .footer__title,
@@ -1122,7 +1119,6 @@ footer .footer__social a:hover {
   .about__container,
   .portfolio__content,
   .project__container,
-  .skills__container,
   .footer__container {
     grid-template-columns: repeat(2, 2fr);
   }
@@ -1289,9 +1285,7 @@ footer .footer__social a:hover {
     justify-self: flex-end;
   }
 
-  .footer__copy {
-    margin-top: 4.5rem;
-  }
+
 }
 
 
@@ -1445,7 +1439,7 @@ footer .footer__social a:hover {
   
   }
   .product-individual{
-    box-shadow: 20px -4px 39px -3px rgba(0,0,0,0.1);
+    box-shadow: 20px 40px 39px 30px rgba(0,0,0,0.1);
   }
   .product-button button {
     padding: 10px 20px 10px 20px !important;
@@ -1471,7 +1465,7 @@ footer .footer__social a:hover {
 
   
   .product-individual{
-    box-shadow: 20px -4px 39px -3px rgba(0,0,0,0.1);
+    box-shadow: 20px 40px 39px 30px rgba(0,0,0,0.1);
   }
   .product-individual {
     /* display: grid; */
@@ -1519,3 +1513,61 @@ footer .footer__social a:hover {
 }
 
 
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-flex;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.list-inline-item{
+  font-weight: 700 !important;
+}
+
+.img-skill{
+  margin-left: 10px !important;
+}
+
+.skill-text .list-inline-item{
+border: solid 1px;
+padding: 10px;
+background: rgba(0, 0, 0, var(--body-color));
+border-radius: 43px;
+margin-top: 10px;
+}
+
+.list-inline-item:hover{
+  cursor: pointer;
+}
+
+@media screen and (min-width:220px) and (max-width:650px) {
+  .list-inline-item{
+    margin-top: 20px !important;
+    margin-left: 0px !important;
+  }  
+  .skill-text .list-inline-item{
+    font-size: 12px;
+  }
+  .list-inline{
+    width: 105% !important;
+  }
+
+}
+
+.icon-footer{
+  margin-left: 20px;
+}
+
+
+.footer__bg{
+  color: #eee !important;
+}
+.footer__bg a{
+  text-decoration: none !important;
+  color: #eee !important;
+}
