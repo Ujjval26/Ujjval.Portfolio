@@ -1439,8 +1439,8 @@ footer .footer__social a:hover {
   
   }
   .product-individual{
-    box-shadow: 20px 40px 39px 30px rgba(0,0,0,0.1);
-  }
+    box-shadow: 0px 10px 31px -3px rgba(0,0,0,0.1);
+    }
   .product-button button {
     padding: 10px 20px 10px 20px !important;
     border-radius: 12px !important;
@@ -1465,8 +1465,8 @@ footer .footer__social a:hover {
 
   
   .product-individual{
-    box-shadow: 20px 40px 39px 30px rgba(0,0,0,0.1);
-  }
+    box-shadow: 0px 10px 31px -3px rgba(0,0,0,0.1);
+    }
   .product-individual {
     /* display: grid; */
     /* grid-template-columns: repeat(1,1fr); */
