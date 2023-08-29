@@ -1560,7 +1560,9 @@ margin-top: 10px;
 }
 
 .icon-footer{
-  margin-left: 20px;
+  padding: 10px !important;
+  font-size: 20px !important;
+  
 }
 
 
